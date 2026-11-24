@@ -1,0 +1,56 @@
+body {
+    background-color: #e8f0fe;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.profile-card {
+    background-color: white;
+    width: 350px;
+    padding: 25px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0px 4px 15px gray;
+}
+
+h1 {
+    color: blue;
+}
+
+.name {
+    color: green;
+    font-weight: bold;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #dbeafe;
+    margin: 8px;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkblue;
+}
